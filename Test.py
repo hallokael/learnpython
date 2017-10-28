@@ -12,7 +12,7 @@ def Tri(num):
     return "finish"
 def char2num(s):
     print(s)
-    return {'0':0,'1':1,'2':2}
+    return {'0':0,'1':1,'2':2}[s]
 def not_empty(s):
     return s and s.strip()
 def odd_it():
