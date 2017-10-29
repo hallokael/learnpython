@@ -1,8 +1,10 @@
+def log( func ):
+    def wrapper():
+        print( 'call %s():'% func.__name__ )
+        return func()
+    return wrapper
+@log
 def now():
     print( 'sjdkal' )
-f=now
-f()
-print(f.__name__)
-def log( func ):
-    def wrapper( *args,**kw ):
+now()
 
