@@ -19,3 +19,8 @@ kw={'base':2}
 print( int( '10010',**kw ) )
 max2=functools.partial( max,10 )
 print( max2( 5,6 ) )
+from PIL import Image
+im=Image.open('filt.jpg')
+print( im.format,im.size,im.mode )
+im.thumbnail( ( 30,30 ) )
+im.save( 'thu.jpg','JPEG' )
