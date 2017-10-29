@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbcf4423-7c6c-4888-879c-fd71c750ead9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learn3.py" afterPath="$PROJECT_DIR$/learn3.py" />
     </list>
     <ignored path="untitled1.iws" />
@@ -15,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/untitled1$learn3.coverage" NAME="learn3 Coverage Results" MODIFIED="1509260908146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled1$learn3.coverage" NAME="learn3 Coverage Results" MODIFIED="1509263400653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$aaa.coverage" NAME="aaa Coverage Results" MODIFIED="1505747630073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.idea" />
     <SUITE FILE_PATH="coverage/untitled1$Test.coverage" NAME="Test Coverage Results" MODIFIED="1509252545828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled1$kNN.coverage" NAME="kNN Coverage Results" MODIFIED="1505747741158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.idea" />
@@ -66,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/learn3.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -75,7 +76,7 @@
       <file leaf-file-name="te" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/te">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
+            <state relative-caret-position="950">
               <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
               <folding />
             </state>
@@ -86,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/kNN.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="350">
-              <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+              <caret line="328" column="38" selection-start-line="328" selection-start-column="38" selection-end-line="328" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -95,7 +96,7 @@
       <file leaf-file-name="builtins.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.PyCharm2016.2/system/python_stubs/1490425883/builtins.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11875">
+            <state relative-caret-position="577">
               <caret line="475" column="4" selection-start-line="475" selection-start-column="4" selection-end-line="475" selection-end-column="4" />
               <folding />
             </state>
@@ -121,13 +122,13 @@
         <option value="$PROJECT_DIR$/.idea/kNN" />
         <option value="$PROJECT_DIR$/.idea/123.py" />
         <option value="$PROJECT_DIR$/.idea/kNN.py" />
-        <option value="$PROJECT_DIR$/kNN.py" />
         <option value="$PROJECT_DIR$/.idea/aaa.py" />
         <option value="$PROJECT_DIR$/te" />
         <option value="$PROJECT_DIR$/Test.py" />
         <option value="$PROJECT_DIR$/10.30learn.py" />
         <option value="$PROJECT_DIR$/learn1.py" />
         <option value="$PROJECT_DIR$/learn2.py" />
+        <option value="$PROJECT_DIR$/kNN.py" />
         <option value="$PROJECT_DIR$/learn3.py" />
       </list>
     </option>
@@ -863,14 +864,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/10.30learn.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2016.2/system/python_stubs/1490425883/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11875">
-          <caret line="475" column="4" selection-start-line="475" selection-start-column="4" selection-end-line="475" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learn1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -894,14 +887,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learn2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -912,8 +897,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/te">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
+        <state relative-caret-position="950">
           <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="328" column="38" selection-start-line="328" selection-start-column="38" selection-end-line="328" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2016.2/system/python_stubs/1490425883/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="475" column="4" selection-start-line="475" selection-start-column="4" selection-end-line="475" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -921,7 +922,7 @@
     <entry file="file://$PROJECT_DIR$/learn3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
           <folding />
         </state>
       </provider>

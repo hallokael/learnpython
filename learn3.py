@@ -1,10 +1,14 @@
-def log( func ):
-    def wrapper():
-        print( 'call %s():'% func.__name__ )
-        return func()
-    return wrapper
-@log
+import functools
+def log( *args ):
+    def decorator( func ):
+        @functools.wraps(func)
+        def wrapper():
+            print('%s %s():' %( args[0] if len( args )>0 else "call" ,func.__name__ ))
+            func()
+            print('%s %s():' % (args[0] if len(args) > 0 else "call", func.__name__))
+        return wrapper
+    return decorator
+@log()
 def now():
-    print( 'sjdkal' )
-now()
-
+    print( "ssss" )
+print( now() )
