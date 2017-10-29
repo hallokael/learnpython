@@ -19,7 +19,10 @@ class Student( object ):
             return lambda : 22
         if item=='score':
             return 99
+    def __call__(self  ):
+        print("Call Test")
 f=Fib()
 s=Student()
 print( f[5],f[6] )
 print( s.age(),s.score )
+s()
