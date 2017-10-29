@@ -253,7 +253,7 @@ def gradAscent(dataMatIn,classLabels):
     alpha=0.001
     maxCycles=500
     weights=ones((n,1))
-    for k in range(maxCycles)
+    for k in range(maxCycles):
         h=sigmoid(dataMatrix*weights)
         error=(labelMat-h)
         weights=weights+alpha*dataMatrix.transpose()*error
@@ -288,7 +288,7 @@ def stumpClassify(dataMatrix,dimen,threshVal,threshIneq):
     return retArray
     labelMat=mat(classLabels).T
 def buildStump(dataArr,classLabels,D):
-    dataMatrix=mat(dataArr);
+    dataMatrix=mat(dataArr);labelMat = mat(classLabels).T
     m,n=shape(dataMatrix)
     numSteps=10.0;
     bestStump={};
