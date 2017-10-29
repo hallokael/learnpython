@@ -6,6 +6,19 @@ class Student( object ):
         print('%s: %s'%( self.__name,self.__score ))
 bart=Student( 'Bart Simp',59 )
 lisa=Student( 'Lisa Simp',87 )
-bart.print_score()
-print( bart._Student__name )
-bart.__name
+#bart.print_score()
+#print( bart._Student__name )
+#bart.__name
+class Animal( object ):
+    def run(self):
+        print('Animal is running')
+class Dog( Animal ):
+    def run(self  ):
+        print('Dog is running !!')
+dog=Dog()
+#dog.run()
+def run_twice( animal ):
+    animal.run()
+    animal.run()
+run_twice(dog)
+
