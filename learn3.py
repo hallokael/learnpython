@@ -11,4 +11,11 @@ def log( *args ):
 @log()
 def now():
     print( "ssss" )
-print( now() )
+#print( now() )
+int=functools.partial( int,base=2 )
+print( int( '1010111') )
+print( int( '1010111',base=10) )
+kw={'base':2}
+print( int( '10010',**kw ) )
+max2=functools.partial( max,10 )
+print( max2( 5,6 ) )
