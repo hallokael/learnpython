@@ -14,7 +14,7 @@ s=Student( 'Bob',20,88 )
 print( json.dumps(s,default=lambda obj:obj.__dict__) )
 jstr=json.dumps(s,default=lambda obj:obj.__dict__)
 print( type( jstr ) )
-def d2s( strd ):
+def d2s( strd ): 
     return Student( strd['name'],strd['age'],strd['score'] )
 print(type( json.loads(jstr)),type( d2s( json.loads(jstr) ) ) )
 print( type( json.loads( jstr,object_hook=d2s ) ) )
